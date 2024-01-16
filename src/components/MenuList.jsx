@@ -3,9 +3,10 @@ import MenuItems from './MenuItems';
 import './MenuList.css'
 
 
+
 function MenuList({ foodItems }) {
   return (
-    <div>
+    <div className='menu'>
       {foodItems.map((item, index) => (
         <MenuItems
           key={index}

@@ -1,0 +1,27 @@
+img {
+    height: 180px;
+    width: 180px;
+} 
+
+.item {
+    display: flex;
+    width: 100vw
+}
+
+.name-description {
+    text-align: left; 
+    margin-left: 15px; 
+}
+
+.price-favorite {
+    display: flex;
+    flex-direction: column;
+}
+
+.plat {
+    display: flex;
+    border: black solid;
+    margin-bottom: 25px;
+
+    
+}
